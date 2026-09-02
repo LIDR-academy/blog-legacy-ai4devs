@@ -1,0 +1,15 @@
+{
+  "all": true,
+  "src": ["app", "start"],
+  "include": ["app/**/*.ts", "start/**/*.ts"],
+  "exclude": [
+    "tests/**",
+    ".adonisjs/**",
+    "build/**",
+    "node_modules/**",
+    "database/**"
+  ],
+  "extension": [".ts"],
+  "reporter": ["text", "text-summary", "json-summary"],
+  "reports-dir": "coverage"
+}
